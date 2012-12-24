@@ -51,26 +51,87 @@ using mashups through ql.io.</td>
 
 <h2>API Usage</h2>
 <p><dl>
+<dt><code>eBay Merchandising API</code></dt>
+<dd><p>2.3 Presenting Similar Items</dd>
 <dt><code>eBay Shopping API</code></dt>
 <dd><p>1.1 Tapping into Product Reviews and Guides</dd>
 <dt><code>eBay Trading API</code></dt>
 <dd><p>1.3 Presenting Products through eBay</dd>
-<dt><code>eBay Merchandising API</code></dt>
-<dd><p>2.3 Presenting Similar Items</dd>
-<dt><code>PayPal Access</code></dt>
-<dd><p>2.2 Personalizing a Store Experience</dd>
+<dt><code>Hunch</code></dt>
+<dd><p>5.2 Creating a Taste Graph</dd>
 <dt><code>Magento</code></dt>
 <dd><p>2.1 Customizing a Magento Storefront</dd>
+<dd><p>3.1 Autogenerating Coupons with Magento</dd>
+<dd><p>4.2 Simple Shipping Extension in Magento</dd>
 <dt><code>Milo</code></dt>
 <dd><p>1.2 Mapping Product Availability</dd>
-<dt><code>RedLaser</code></dt>
-<dd><p>The English version of edition 1 of the book.</dd>
+<dt><code>PayPal Access</code></dt>
+<dd><p>2.2 Personalizing a Store Experience</dd>
+<dt><code>PayPal Adaptive Payments</code></dt>
+<dd><p>3.2 Making Payments with Preapprovals</dd>
+<dd><p>3.3 Giving Back at Checkout</dd>
+<dd><p>4.3 Multiple Supplier Fulfillment</dd>
+<dt><code>PayPal Instant Payment Notification</code></dt>
+<dd><p>4.1 Just-in-Time Shipping Forms</dd>
 <dt><code>ql.io</code></dt>
-<dd><p>The English version of edition 1 of the book.</dd>
+<dd><p>5.3 Social Recommendations</dd>
+<dt><code>RedLaser</code></dt>
+<dd><p>5.1 Sharing with QR Codes</dd>
 </dl>
 
-list of recipes and short description - table number, title, api, description
-
+<table>
+  <tr>
+    <td colspan="4"><span style="font-weight:bold;">Chapter 1 - Product Discovery</h3></td>
+  </tr>
+  <th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <tr>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>1.2</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>2.1</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>2.2</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>2.3</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>3.1</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>3.2</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>3.3</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>4.1</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>4.2</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>4.3</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>5.1</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>5.2</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td>5.3</td><td></td><td></td><td></td>
+  </tr>
+</table>
 
 <h2>Using Code Examples</h2>
 <p>This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
