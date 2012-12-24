@@ -1,4 +1,5 @@
-<h1>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</h1>
+<h1>eBay Commerce Cookbook:</h1>
+<h2>Using eBay APIs: PayPal, Magento and More</h2>
 
 <p>This is the source code repository for a book about improving the commerce lifecycle by leveraging APIs from the various eBay owned properties.
 
