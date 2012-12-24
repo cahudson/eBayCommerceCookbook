@@ -45,27 +45,28 @@ codes, generating taste graphs and recommendations via Hunch, and social sharing
 using mashups through ql.io.</td>
   </tr>
 </table>
-<p>![My image](cahudson.github.com/eBayCommerceCookbook/preface.png)
+<p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.
+<p>![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
 3 in each section
-<dl>
 
-<dt><code>draft/</code></dt>
-
-<dd><p>The draft of next edition.</dd>
-
-<dt><code>editions/</code></dt>
-
+<h2>API Usage</h2>
+<p><dl>
+<dt><code>eBay Shopping API</code></dt>
+<dd><p>1.1 Tapping into Product Reviews and Guides</dd>
+<dt><code>eBay Trading API</code></dt>
+<dd><p>1.3 Presenting Products through eBay</dd>
+<dt><code>PayPal</code></dt>
 <dd><p>Published editions of the book.</dd>
-
-<dt><code>editions/1</code></dt>
-
-<dd><p>Edition 1 of the book.</dd>
-
-<dt><code>editions/1/en</code></dt>
-
+<dt><code>Magento</code></dt>
+<dd><p>Edition 1 o the book.</dd>
+<dt><code>Milo</code></dt>
+<dd><p>1.2 Mapping Product Availability</dd>
+<dt><code>RedLaser</code></dt>
 <dd><p>The English version of edition 1 of the book.</dd>
-
+<dt><code>ql.io</code></dt>
+<dd><p>The English version of edition 1 of the book.</dd>
 </dl>
+
 
 <h2>Using Code Examples</h2>
 <p>This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
