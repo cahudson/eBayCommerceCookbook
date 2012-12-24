@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>2.3 Mapping Product Availability with Milo</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<style>
+body {background: #fff; color: #000; font: normal 62.5%/1.5 tahoma, verdana, sans-serif;}
+* {margin: 0; padding: 0;}
+#container {width:500px;}
+#mapCanvas {width:500px;height:300px;border: 1px solid #ccc; border-radius: 5px; margin: 22px 10px; padding:10px}
+form {padding: 0 10px; width: 700px;}
+legend {font-size: 2em; padding-left:5px;padding-right:5px; position: relative;}
+fieldset {border: 1px solid #ccc; border-radius: 5px; padding: 10px; width: 320px;}
+li {clear: both; list-style-type: none; margin: 0 0 10px;}
+label, input {font-size: 1.3em;}
+label {display: block; padding: 0 0 5px; width: 200px}
+input {background-position: 295px 5px; background-repeat: no-repeat; border: 2px solid #ccc; border-radius: 5px; padding: 5px 25px 5px 5px; width: 285px;}
+input:focus {outline: none;}
+input:invalid:required {background-image: url(asterisk.png); box-shadow: none;}
+input:focus:invalid {background-image: url(invalid.png); box-shadow: 0px 0px 5px #b01212; border: 2px solid #b01212;}
+input:valid:required {background-image: url(accept.png); border: 2px solid #7ab526;}
+input[type=range]:before{content: "1";}
+input[type=range]:after{content: "100";}
+div#range label {font-weight: bold;}
+output {font-size: 1.3em; font-weight: bold; display: block; text-align: center;}
+div label {width: 100%;}
+</style>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+// global map reference variable
+var map;
+
+// initialize the page
+function init() {
+	
+	// load and initialize map with default location
+  var myLatlng = new google.maps.LatLng(33.85095,-84.2075);
+  var myOptions = {
+    zoom: 10,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  map = new google.maps.Map(document.getElementById("mapCanvas"), myOptions);
+
+  
+	// Add the button click listener
+	var btnFindProduct = document.getElementById('findProduct');
+	btnFindProduct.addEventListener('click',findProduct,false);
+
+}	// end init
+
+// function to call ajax helper for retrieving availability
+function findProduct() {
+	
+	// set helper url location
+	var wsUrl = "ajax/wsMiloAvailability.php";
+	
+	// grab values from form for product id search
+	var inProduct = document.getElementById('product').value;
+	var inZip = document.getElementById('zip').value;
+	var inRadius = document.getElementById('radius').value;
+	
+	// encapsulate fields for querystring
+	var params = {
+		product_id: inProduct,
+		postal_code: inZip,
+		radius: inRadius
+	};
+	
+	// make ajax call
+	$.ajax({ url: wsUrl, data: $.param(params), success: processData});
+
+} // end findProduct
+
+// function to process the availbility data received via ajax
+function processData(data) {
+	
+	var merName;
+	var merImg;
+	var storeLat;
+	var storeLng;
+	var storeStock;
+	
+	// convert json data into json object
+	var obj = jQuery.parseJSON(data);
+	
+	// TODO:: should handle if no data or error returned
+	
+	// loop through each merchant returned
+	$.each(obj, function(i, merchant) {
+		
+		// grab merchant name and image
+		merName = this['name'];
+		merImg = this['image_url'];
+		
+		// loop through each store location of merchant
+		$.each(merchant, function() {
+			
+			// simple check if a store object
+			if (this['id']) {
+				
+				// grab the store location information and availability
+				storeLat = this['latitude'];
+				storeLng = this['longitude'];
+				storeStock = this['availability'];
+				
+				// create the marker with the data
+				createMarker(merName, merImg, storeLat, storeLng, storeStock)
+			}
+		});
+  });
+
+} // end processData
+
+// function to create each map marker based on passed data
+function createMarker(mkrName, mkrImg, mkrLat, mkrLng, mkrStock) {
+	
+	/* Milo availbility values include:
+     in_stock     Currently available for purchase
+     out_of_stock Currently not available for purchase
+     limited      Currently available though stock may be low
+     carries      The product is sold at the store but availability is unknown
+     likely       Likely to be available but not certain
+     never        The store does not carry the product
+     call         The store should be contacted for availability information
+	*/
+
+	// check availabilty and set icon to merchant image if available
+	var mkrIcon = '';
+	if (mkrStock == 'in_stock' || mkrStock == 'limited') {
+		mkrIcon = mkrImg;
+	}
+	
+	// create the marker based on Latitude and Longitude
+  var mkrLatLng = new google.maps.LatLng(mkrLat, mkrLng);
+  var marker = new google.maps.Marker({
+      position: mkrLatLng,
+      map: map,
+      icon: mkrIcon
+  });
+	
+	// set the info window content and click listener to display
+	var infowindow = new google.maps.InfoWindow();
+	google.maps.event.addListener(marker, 'click', (function(marker) {
+		return function() {
+			infowindow.setContent('<img src="' + mkrImg + '" />' + mkrName 
+				+ '<br/>' + mkrStock);
+			infowindow.open(map, marker);
+		}
+	})(marker));
+	
+	// pan to the marker displayed
+	map.panTo(mkrLatLng);
+	
+}	// end createMarker
+
+// Initialize the page
+window.addEventListener('load',init,false);
+
+</script>
+</head>
+<body>
+<div id="container">
+  <div id="mapCanvas"></div>
+  <div id="productForm">
+  	<form>
+      <fieldset>
+      <legend>Product Search</legend>
+      <ol>
+        <li>
+        	<label for="product">Product ID (Milo ID)
+        	</label><input autofocus required id="product" name="product" value="6754308" />
+        </li>
+        <li>
+        	<label for="zip">Zip Code</label>
+          <input required id="zip" name="zip" value="30345" />
+        </li>
+        <li>
+        	<label for="radius">Radius (1-100 miles)</label>
+        	<input required id="radius" name="radius" min="1" max="100" value="10" />
+        </li>
+      </ol>
+      </fieldset>
+      <br/>
+      <button id="findProduct" name="findProduct" type="button">Locate Product</button>
+  	</form>
+  </div>
+</div>
+</body>
+</html>
