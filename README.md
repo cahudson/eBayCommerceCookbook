@@ -55,10 +55,12 @@ using mashups through ql.io.</td>
 <dd><p>1.1 Tapping into Product Reviews and Guides</dd>
 <dt><code>eBay Trading API</code></dt>
 <dd><p>1.3 Presenting Products through eBay</dd>
-<dt><code>PayPal</code></dt>
-<dd><p>Published editions of the book.</dd>
+<dt><code>eBay Merchandising API</code></dt>
+<dd><p>2.3 Presenting Similar Items</dd>
+<dt><code>PayPal Access</code></dt>
+<dd><p>2.2 Personalizing a Store Experience</dd>
 <dt><code>Magento</code></dt>
-<dd><p>Edition 1 o the book.</dd>
+<dd><p>2.1 Customizing a Magento Storefront</dd>
 <dt><code>Milo</code></dt>
 <dd><p>1.2 Mapping Product Availability</dd>
 <dt><code>RedLaser</code></dt>
@@ -66,6 +68,8 @@ using mashups through ql.io.</td>
 <dt><code>ql.io</code></dt>
 <dd><p>The English version of edition 1 of the book.</dd>
 </dl>
+
+list of recipes and short description - table number, title, api, description
 
 
 <h2>Using Code Examples</h2>
