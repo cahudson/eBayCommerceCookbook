@@ -81,11 +81,81 @@ using mashups through ql.io.</td>
 
 <table>
   <tr>
-    <td colspan="4"><span style="font-weight:bold;">Chapter 1 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery</h3></td>
   </tr>
-  <th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
     <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 2 - Product Discovery</h3></td>
+  </tr>
+  <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <tr>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 3 - Product Discovery</h3></td>
+  </tr>
+  <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <tr>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 4 - Product Discovery</h3></td>
+  </tr>
+  <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <tr>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 5 - Product Discovery</h3></td>
+  </tr>
+  <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
+  <tr>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+  </tr>
+  <tr>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
   </tr>
 </table>
 <table>
