@@ -45,7 +45,7 @@ codes, generating taste graphs and recommendations via Hunch, and social sharing
 using mashups through ql.io.</td>
   </tr>
 </table>
-<p><img src="https://github.com/cahudson/eBayCommerceCookbook/blob/master/preface.png" />
+<p>![My image](cahudson.github.com/eBayCommerceCookbook/preface.png)
 3 in each section
 <dl>
 
