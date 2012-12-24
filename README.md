@@ -7,7 +7,7 @@
 
 <p>The book is called <em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em> and is published by O’Reilly Media.
 
-<p>You can inspect the source code and make improvements to it, and similarly you can inspect the source code for this book and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the project, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do">buying a copy</a> of the book in digital or printed form.
+<p>You can inspect the source code and make improvements to it, and similarly you can inspect the source code for this book and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the project, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
 <p>Implementing solutions around commerce incorporated various APIs including several from eBay owned properties. Examples include APIs from :
 ql.io, redlaser, ebay, paypal, magento
 
