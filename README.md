@@ -16,22 +16,36 @@ ql.io, redlaser, ebay, paypal, magento
 
 <h2>Organization</h2>
 <p>The book consists of five chapters following the simplified commerce life cycle:
-<ul>
-<li><p>Chapter 1, provides examples covering the mapping of product availability to location
+<table>
+  <tr>
+    <th>Chapter</th><th>Stage</th><th>Topics</th>
+  </tr>
+  <tr>
+    <td>1</td><td></td><td>provides examples covering the mapping of product availability to location
 using Milo, listing your products on eBay, and incorporating product reviews
-from eBay into your site.</li>
-<li><p>Chapter 2, provides examples including customizing the Magento storefront, personalizing
+from eBay into your site.</td>
+  </tr>
+  <tr>
+    <td>2</td><td></td><td>provides examples including customizing the Magento storefront, personalizing
 a store experience with PayPal Access, and presenting similar items from
-eBay.</li>
-<li><p>Chapter 3, provides examples including autogenerating coupons with Magento,
-payment preapproval, and donating on checkout with PayPal Adaptive Payments.</li>
-<li><p>Chapter 4, provides examples covering shipping form creation with PayPal Instant
+eBay.</td>
+  </tr>
+  <tr>
+    <td>3</td><td></td><td>provides examples including autogenerating coupons with Magento,
+payment preapproval, and donating on checkout with PayPal Adaptive Payments.</td>
+  </tr>
+  <tr>
+    <td>4</td><td></td><td>provides examples covering shipping form creation with PayPal Instant
 Payment Notifications, shipping method extensions with Magento, and multiple
-supplier payment with PayPal chained payments.</li>
-<li><p>Chapter 5, includes examples on facilitating social recommendations with QR
+supplier payment with PayPal chained payments.</td>
+  </tr>
+  <tr>
+    <td>5</td><td></td><td>includes examples on facilitating social recommendations with QR
 codes, generating taste graphs and recommendations via Hunch, and social sharing
-using mashups through ql.io.</li>
-</ul>
+using mashups through ql.io.</td>
+  </tr>
+</table>
+
 3 in each section
 <dl>
 
