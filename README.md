@@ -49,6 +49,11 @@ using mashups through ql.io.</li>
 
 </dl>
 
+<h2>Using Code Examples</h2>
+<p>This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
+<p>We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “eBay Commerce Cookbook by Charles Hudson (O’Reilly). Copyright 2013 Charles Hudson, 978-1-4493-2015-7.”
+<p>If you feel your use of code examples falls outside fair use or the permission given here, feel free to contact us at permissions@oreilly.com.
+
 <h2>Contributions</h2>
 
 <p>The book is made available
