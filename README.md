@@ -86,7 +86,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td></td>
+    <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
   </tr>
   <tr>
     <td>2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td></td>
@@ -102,7 +102,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td></td>
+    <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td>Wrap the new Magento autogeneration of coupons to create a REST API for creating coupons dynamically.</td>
   </tr>
   <tr>
     <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive</td><td></td>
@@ -118,7 +118,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal IPN</td><td></td>
+    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal IPN</td><td>Create in real time, shipping forms from PayPal Instant Payment Notifications for goods purchased.</td>
   </tr>
   <tr>
     <td>4.2</td><td>Simple Shipping Extension</td><td>Magento</td><td></td>
@@ -134,7 +134,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>5.1</td><td>Sharing with QR Codes</td><td>RedLaser</td><td></td>
+    <td>5.1</td><td>Sharing with QR Codes</td><td>RedLaser</td><td>Dynamically create QR codes for products with the Google API and then leverage the RedLaser API in an iPhone app to scan the code and launch a Scan It, Share It page.</td>
   </tr>
   <tr>
     <td>5.2</td><td>Creating a Taste Graph</td><td>Hunch</td><td></td>
