@@ -102,7 +102,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>3.1</td><td>Autogenerating Coupons with Magento</td><td>Magento</td><td></td>
+    <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td></td>
   </tr>
   <tr>
     <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive Payments</td><td></td>
