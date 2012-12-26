@@ -81,7 +81,7 @@ using mashups through ql.io.</td>
 
 <table>
   <tr>
-    <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery and Research</h3></td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
@@ -97,65 +97,65 @@ using mashups through ql.io.</td>
 
 <table>
   <tr>
-    <td colspan="5"><span style="font-weight:bold;">Chapter 2 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 2 - Product Presentation</h3></td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+    <td>2.1</td><td>Customizing a Magento Storefront</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+    <td>2.2</td><td>Personalizing a Store Experience</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+    <td>2.3</td><td>Presenting Similar Items</td><td></td><td></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td colspan="5"><span style="font-weight:bold;">Chapter 3 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 3 - Enhancing the Payment Experience</h3></td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+    <td>3.1</td><td>Autogenerating Coupons with Magento</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+    <td>3.2</td><td>Making Payments with Preapprovements</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+    <td>3.3</td><td>Giving Back at Checkout</td><td></td><td></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td colspan="5"><span style="font-weight:bold;">Chapter 4 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 4 - Order Fulfillment</h3></td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+    <td>4.2</td><td>Simple Shipping Extension in Magento</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td></td><td></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td colspan="5"><span style="font-weight:bold;">Chapter 5 - Product Discovery</h3></td>
+    <td colspan="5"><span style="font-weight:bold;">Chapter 5 - Consumption and Sharing</h3></td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+    <td>5.1</td><td>Sharing with QR Codes</td><td>eBay Shopping API</td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+    <td>5.2</td><td>Creating a Taste Graph</td><td></td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+    <td>5.3</td><td>Social Recommendations</td><td></td><td></td>
   </tr>
 </table>
 <table>
