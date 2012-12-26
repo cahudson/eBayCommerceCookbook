@@ -135,6 +135,7 @@ using mashups through ql.io.</td>
 <code><a href="http://developer.ebay.com/DevZone/merchandising/docs/Concepts/MerchandisingAPIGuide.html" target="_blank">eBay Merchandising API</a></code>
 <code><a href="http://developer.ebay.com/DevZone/shopping/docs/Concepts/ShoppingAPIGuide.html" target="_blank">eBay Shopping API</a></code>
 <code><a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/" target="_blank">eBay Trading API</a></code>
+<code><a href="https://developers.google.com/chart/infographics/docs/qr_codes" target="_blank">Google Infographics QR Codes</a></code>
 <code><a href="http://hunch.com/developers/v1/" target="_blank">Hunch</code></a></dt>
 <code><a href="http://www.magentocommerce.com/api/rest/introduction.html" target="_blank">Magento</a></code>
 <code><a href="https://www.x.com/developers/documentation-tools/milo/miloindex" target="_blank">Milo</a></code>
