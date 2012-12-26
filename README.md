@@ -1,6 +1,3 @@
-<style>
-td {vertical-align:top}
-</style>
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
@@ -73,13 +70,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews</td><td>eBay Shopping</td><td></td>
+    <td style="valign:top;">1.1</td><td>Tapping into Product Reviews</td><td>eBay Shopping</td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo</td><td></td>
+    <td style="valign:top;">1.2</td><td>Mapping Product Availability</td><td>Milo</td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading</td><td></td>
+    <td style="valign:top;">1.3</td><td>Presenting Products through eBay</td><td>eBay Trading</td><td></td>
   </tr>
 </table>
 
@@ -89,13 +86,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
+    <td style="valign:top;">2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
   </tr>
   <tr>
-    <td>2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td></td>
+    <td style="valign:top;">2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td></td>
   </tr>
   <tr>
-    <td>2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising</td><td></td>
+    <td style="valign:top;">2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising</td><td></td>
   </tr>
 </table>
 
