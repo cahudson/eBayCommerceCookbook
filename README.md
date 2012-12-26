@@ -133,24 +133,24 @@ using mashups through ql.io.</td>
 <p>There are at least a dozen different API sets used through out the examples of the book. Each of the APIs have special licensing and terms of usage. Below is a list of the core APIs employed linked to the documentation of the APIs. Where applicable the limits and key terms have been included in the book, however the various third party API owners may change these at anytime so it is recommeneded that you verify with any provider that you may be incorporating.
 <p>
 <code><a href="http://developer.ebay.com/DevZone/merchandising/docs/Concepts/MerchandisingAPIGuide.html" target="_blank">eBay Merchandising API</a></code>
-<code>eBay Shopping API</code>
-<code>eBay Trading API</code>
-<code>Hunch</code></dt>
-<code>Magento</code>
-<code>Milo</code>
-<code>PayPal Access</code>
-<code>PayPal Adaptive Payments</code>
-<code>PayPal Instant Payment Notification (IPN)</code>
-<code>ql.io</code>
-<code>RedLaser</code>
+<code><a href="http://developer.ebay.com/DevZone/shopping/docs/Concepts/ShoppingAPIGuide.html" target="_blank">eBay Shopping API</a></code>
+<code><a href="http://developer.ebay.com/DevZone/XML/docs/Reference/eBay/" target="_blank">eBay Trading API</a></code>
+<code><a href="http://hunch.com/developers/v1/" target="_blank">Hunch</code></a></dt>
+<code><a href="http://www.magentocommerce.com/api/rest/introduction.html" target="_blank">Magento</a></code>
+<code><a href="https://www.x.com/developers/documentation-tools/milo/miloindex" target="_blank">Milo</a></code>
+<code><a href="https://www.x.com/developers/paypal/products/paypal-access" target="_blank">PayPal Access</a></code>
+<code><a href="https://www.x.com/developers/paypal/documentation-tools/adaptive-payments/integration-guide/APIntro" target="_blank">PayPal Adaptive Payments</a></code>
+<code><a href="https://www.x.com/developers/paypal/documentation-tools/ipn/integration-guide/IPNIntro" target="_blank">PayPal Instant Payment Notification (IPN)</a></code>
+<code><a href="http://ql.io/docs" target="_blank">ql.io</a></code>
+<code><a href="http://redlaser.com/developers/" target="_blank">RedLaser</a></code>
 
 <h2>Using Code Examples</h2>
 <p>This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
 <p>We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “eBay Commerce Cookbook by Charles Hudson (O’Reilly). Copyright 2013 Charles Hudson, 978-1-4493-2015-7.”
 <p>If you feel your use of code examples falls outside fair use or the permission given here, feel free to contact us at permissions@oreilly.com.
 
-<h2>Contributions</h2>
-
+<h2>Contributions and Updates</h2>
+<p>The world of technology is changing at a rocket pace and trying to keep up with more than a dozen different APIs can be challenging. If you find a new update or change please let me know. I will review and include in any updates if appropriate. As well it may get posted here or on the O'Reilly Media book discussion area. In either case not only will I benefit from the new information but everyone else following along. Have fun mashing together the various APIs.
 <p>The book is made available
 
 <p>We encourage you to fork our work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official book and give you a credit in the next edition. If you just have an issue to report, please use the regular Github issue system.
