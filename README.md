@@ -11,9 +11,6 @@
 <p>Implementing solutions around commerce incorporated various APIs including several from eBay owned properties. Examples include APIs from :
 ql.io, redlaser, ebay, paypal, magento
 
-<h2>Code Examples - Recipes</h2>
-<p>README at the top of each directory
-
 <h2>Organization</h2>
 <p>The book consists of five chapters following the simplified commerce life cycle:
 <table>
@@ -49,20 +46,8 @@ using mashups through ql.io.</td>
 <p>![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
 3 in each section
 
-<h2>API Usage</h2>
-11 different APIs
-<p>
-<code>eBay Merchandising API</code>
-<code>eBay Shopping API</code>
-<code>eBay Trading API</code>
-<code>Hunch</code></dt>
-<code>Magento</code>
-<code>Milo</code>
-<code>PayPal Access</code>
-<code>PayPal Adaptive Payments</code>
-<code>PayPal Instant Payment Notification (IPN)</code>
-<code>ql.io</code>
-<code>RedLaser</code>
+<h2>Code Examples - Recipes</h2>
+<p>README at the top of each directory
 
 <table width="100%">
   <tr>
@@ -143,6 +128,21 @@ using mashups through ql.io.</td>
     <td>5.3</td><td>Social Recommendations</td><td>ql.io</td><td>Use ql.io to aggregate three separate API calls to create personalized social recommendations from Hunch and eBay.</td>
   </tr>
 </table>
+
+<h2>API Usage</h2>
+<p>There are at least a dozen different API sets used through out the examples of the book. Each of the APIs have special licensing and terms of usage. Below is a list of the core APIs employed linked to the documentation of the APIs. Where applicable the limits and key terms have been included in the book, however the various third party API owners may change these at anytime so it is recommeneded that you verify with any provider that you may be incorporating.
+<p>
+<code><a href="http://developer.ebay.com/DevZone/merchandising/docs/Concepts/MerchandisingAPIGuide.html" target="_blank">eBay Merchandising API</a></code>
+<code>eBay Shopping API</code>
+<code>eBay Trading API</code>
+<code>Hunch</code></dt>
+<code>Magento</code>
+<code>Milo</code>
+<code>PayPal Access</code>
+<code>PayPal Adaptive Payments</code>
+<code>PayPal Instant Payment Notification (IPN)</code>
+<code>ql.io</code>
+<code>RedLaser</code>
 
 <h2>Using Code Examples</h2>
 <p>This book is here to help you get your job done. In general, if this book includes code examples, you may use the code in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
