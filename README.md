@@ -105,7 +105,7 @@ using mashups through ql.io.</td>
     <td>3.1</td><td>Autogenerating Coupons with Magento</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>3.2</td><td>Making Payments with Preapprovements</td><td>PayPal Adaptive Payments</td><td></td>
+    <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive Payments</td><td></td>
   </tr>
   <tr>
     <td>3.3</td><td>Giving Back at Checkout</td><td>PayPal Adaptive Payments</td><td></td>
@@ -121,7 +121,7 @@ using mashups through ql.io.</td>
     <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal Instant Payment Notification (IPN)</td><td></td>
   </tr>
   <tr>
-    <td>4.2</td><td>Simple Shipping Extension in Magento</td><td>Magento</td><td></td>
+    <td>4.2</td><td>Simple Shipping Extension</td><td>Magento</td><td></td>
   </tr>
   <tr>
     <td>4.3</td><td>Multiple Supplier Fulfillment</td><td>PayPal Adaptive Payments</td><td></td>
