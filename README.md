@@ -68,23 +68,23 @@ using mashups through ql.io.</td>
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery and Research</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
+    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping</td><td></td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo API</td><td></td>
+    <td>1.2</td><td>Mapping Product Availability</td><td>Milo</td><td></td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading API</td><td></td>
+    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading</td><td></td>
   </tr>
 </table>
 
-<table>
+<table width="100%">
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 2 - Product Presentation</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
     <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td></td>
   </tr>
@@ -92,15 +92,15 @@ using mashups through ql.io.</td>
     <td>2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td></td>
   </tr>
   <tr>
-    <td>2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising API</td><td></td>
+    <td>2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising</td><td></td>
   </tr>
 </table>
 
-<table>
+<table width="100%">
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 3 - Enhancing the Payment Experience</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
     <td>3.1</td><td>Autogenerating Coupons with Magento</td><td>Magento</td><td></td>
   </tr>
@@ -112,11 +112,11 @@ using mashups through ql.io.</td>
   </tr>
 </table>
 
-<table>
+<table width="100%">
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 4 - Order Fulfillment</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
     <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal Instant Payment Notification (IPN)</td><td></td>
   </tr>
@@ -128,11 +128,11 @@ using mashups through ql.io.</td>
   </tr>
 </table>
 
-<table>
+<table width="100%">
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 5 - Consumption and Sharing</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
     <td>5.1</td><td>Sharing with QR Codes</td><td>RedLaser</td><td></td>
   </tr>
