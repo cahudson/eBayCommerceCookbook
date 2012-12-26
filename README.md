@@ -68,7 +68,7 @@ using mashups through ql.io.</td>
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery and Research</h3></td>
   </tr>
-  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API</th><th>Description</th>
+  <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="25%">Title</th><th width="20%">API</th><th>Description</th>
   <tr>
     <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping API</td><td></td>
   </tr>
