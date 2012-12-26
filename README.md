@@ -70,7 +70,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews and Guides</td><td>eBay Shopping</td><td></td>
+    <td>1.1</td><td>Tapping into Product Reviews</td><td>eBay Shopping</td><td></td>
   </tr>
   <tr>
     <td>1.2</td><td>Mapping Product Availability</td><td>Milo</td><td></td>
@@ -118,7 +118,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal Instant Payment Notification (IPN)</td><td></td>
+    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal IPN</td><td></td>
   </tr>
   <tr>
     <td>4.2</td><td>Simple Shipping Extension</td><td>Magento</td><td></td>
