@@ -50,34 +50,19 @@ using mashups through ql.io.</td>
 3 in each section
 
 <h2>API Usage</h2>
-<p><dl>
-<dt><code>eBay Merchandising API</code></dt>
-<dd><p>2.3 Presenting Similar Items</dd>
-<dt><code>eBay Shopping API</code></dt>
-<dd><p>1.1 Tapping into Product Reviews and Guides</dd>
-<dt><code>eBay Trading API</code></dt>
-<dd><p>1.3 Presenting Products through eBay</dd>
-<dt><code>Hunch</code></dt>
-<dd><p>5.2 Creating a Taste Graph</dd>
-<dt><code>Magento</code></dt>
-<dd><p>2.1 Customizing a Magento Storefront</dd>
-<dd><p>3.1 Autogenerating Coupons with Magento</dd>
-<dd><p>4.2 Simple Shipping Extension in Magento</dd>
-<dt><code>Milo</code></dt>
-<dd><p>1.2 Mapping Product Availability</dd>
-<dt><code>PayPal Access</code></dt>
-<dd><p>2.2 Personalizing a Store Experience</dd>
-<dt><code>PayPal Adaptive Payments</code></dt>
-<dd><p>3.2 Making Payments with Preapprovals</dd>
-<dd><p>3.3 Giving Back at Checkout</dd>
-<dd><p>4.3 Multiple Supplier Fulfillment</dd>
-<dt><code>PayPal Instant Payment Notification</code></dt>
-<dd><p>4.1 Just-in-Time Shipping Forms</dd>
-<dt><code>ql.io</code></dt>
-<dd><p>5.3 Social Recommendations</dd>
-<dt><code>RedLaser</code></dt>
-<dd><p>5.1 Sharing with QR Codes</dd>
-</dl>
+11 different APIs
+<p>
+<code>eBay Merchandising API</code>
+<code>eBay Shopping API</code>
+<code>eBay Trading API</code>
+<code>Hunch</code></dt>
+<code>Magento</code>
+<code>Milo</code>
+<code>PayPal Access</code>
+<code>PayPal Adaptive Payments</code>
+<code>PayPal Instant Payment Notification (IPN)</code>
+<code>ql.io</code>
+<code>RedLaser</code>
 
 <table>
   <tr>
@@ -101,13 +86,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>2.1</td><td>Customizing a Magento Storefront</td><td></td><td></td>
+    <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>2.2</td><td>Personalizing a Store Experience</td><td></td><td></td>
+    <td>2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td></td>
   </tr>
   <tr>
-    <td>2.3</td><td>Presenting Similar Items</td><td></td><td></td>
+    <td>2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising API</td><td></td>
   </tr>
 </table>
 
@@ -117,13 +102,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>3.1</td><td>Autogenerating Coupons with Magento</td><td></td><td></td>
+    <td>3.1</td><td>Autogenerating Coupons with Magento</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>3.2</td><td>Making Payments with Preapprovements</td><td></td><td></td>
+    <td>3.2</td><td>Making Payments with Preapprovements</td><td>PayPal Adaptive Payments</td><td></td>
   </tr>
   <tr>
-    <td>3.3</td><td>Giving Back at Checkout</td><td></td><td></td>
+    <td>3.3</td><td>Giving Back at Checkout</td><td>PayPal Adaptive Payments</td><td></td>
   </tr>
 </table>
 
@@ -133,13 +118,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td></td><td></td>
+    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal Instant Payment Notification (IPN)</td><td></td>
   </tr>
   <tr>
-    <td>4.2</td><td>Simple Shipping Extension in Magento</td><td></td><td></td>
+    <td>4.2</td><td>Simple Shipping Extension in Magento</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td></td><td></td>
+    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td>PayPal Adaptive Payments</td><td></td>
   </tr>
 </table>
 
@@ -149,57 +134,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4">&nbsp;</th><th>#</th><th>Title</th><th>API</th><th>Description</th>
   <tr>
-    <td>5.1</td><td>Sharing with QR Codes</td><td>eBay Shopping API</td><td></td>
+    <td>5.1</td><td>Sharing with QR Codes</td><td>RedLaser</td><td></td>
   </tr>
   <tr>
-    <td>5.2</td><td>Creating a Taste Graph</td><td></td><td></td>
+    <td>5.2</td><td>Creating a Taste Graph</td><td>Hunch</td><td></td>
   </tr>
   <tr>
-    <td>5.3</td><td>Social Recommendations</td><td></td><td></td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td>1.2</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>1.3</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>2.1</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>2.2</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>2.3</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>3.1</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>3.2</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>3.3</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>4.1</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>4.2</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>4.3</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>5.1</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>5.2</td><td></td><td></td><td></td>
-  </tr>
-  <tr>
-    <td>5.3</td><td></td><td></td><td></td>
+    <td>5.3</td><td>Social Recommendations</td><td>ql.io</td><td></td>
   </tr>
 </table>
 
