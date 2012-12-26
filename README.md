@@ -105,10 +105,10 @@ using mashups through ql.io.</td>
     <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive Payments</td><td></td>
+    <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive</td><td></td>
   </tr>
   <tr>
-    <td>3.3</td><td>Giving Back at Checkout</td><td>PayPal Adaptive Payments</td><td></td>
+    <td>3.3</td><td>Giving Back at Checkout</td><td>PayPal Adaptive</td><td></td>
   </tr>
 </table>
 
@@ -124,7 +124,7 @@ using mashups through ql.io.</td>
     <td>4.2</td><td>Simple Shipping Extension</td><td>Magento</td><td></td>
   </tr>
   <tr>
-    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td>PayPal Adaptive Payments</td><td></td>
+    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td>PayPal Adaptive</td><td></td>
   </tr>
 </table>
 
