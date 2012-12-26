@@ -1,3 +1,6 @@
+<style>
+td {valign:top}
+</style>
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
