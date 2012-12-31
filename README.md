@@ -1,6 +1,6 @@
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
-<a href="http://goo.gl/cPonT" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51B%2B2xm5GkL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" align="right"/></a>
+<a href="http://goo.gl/cPonT" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51B%2B2xm5GkL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" align="right" title="eBay Commerce Cookbook" alt="eBay Commerce Cookbook" /></a>
 <p>This is the source code repository for the <a href="http://goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a>. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
 <p>Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. 
 <p>If you have a good idea that results or just in general and want to share feel free to contact me. I always love to hear how people are creating new "mashes" and creating new paradigms in commerce! 
@@ -42,7 +42,7 @@ using mashups through ql.io.</td>
   </tr>
 </table>
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
-<img src="https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png"/>
+<img src="https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png" title="Simplified Commerce Lifecycle" alt="Simplified Commerce Lifecycle" align="middle" />
 
 <h2>Code Examples - Recipes</h2>
 <p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
@@ -175,7 +175,7 @@ ASIN: B00ARN9MHC
 Ebook, <a href="http://my.safaribooksonline.com/9781449343859">Safari Books Online</a>
 
 <h2>O'Reilly Animal</h2>
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg" align="left"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg" align="left" title="Mississippi Kite" alt="Mississippi Kite" />
 <strong>Mississippi Kite</strong> (<em>Ictinia mississippiensis</em>)<br/>
 <p><em>"The Mississippi Kite (Ictinia mississippiensis) is a small bird of prey in the family Accipitridae. It is 12 to 15 inches (30–37 cm) beak to tail and has a wingspan averaging 3 feet (91 cm). Weight is from 214 to 388 grams (7.6-13.7 oz).[1] Adults are gray with darker gray on their tail feathers and outer wings and lighter gray on their heads and inner wings. Males and females look alike, but the males are slightly paler on the head and neck. Young kites have banded tails and streaked bodies.[2] Mississippi Kites have narrow, pointed wings and are graceful in flight, often appearing to float in the air. It is not uncommon to see several circling in the same area. Their diet consists mostly of insects which they capture in flight. They eat cicada, grasshoppers, and other crop-damaging insects, making them economically important. They have also been known to eat small vertebrates, including amphibians, reptiles, mammals, and occasionally birds. Their call is a high-pitched squeak, sounding similar to that of a squeaky dog toy."</em> - Wikipedia.org</p>
 <p><a href="http://en.wikipedia.org/wiki/Mississippi_Kite">Wikipedia.org - Mississippi Kite</a><br/>
