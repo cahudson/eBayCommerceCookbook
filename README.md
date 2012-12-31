@@ -12,7 +12,7 @@
 ql.io, redlaser, ebay, paypal, magento
 
 <h2>Organization</h2>
-<p>The book consists of five chapters following the simplified commerce life cycle:
+<p>The book consists of five chapters following a simplified commerce life cycle:
 <table>
   <tr>
     <th>Chapter</th><th>Stage</th><th>Topics</th>
