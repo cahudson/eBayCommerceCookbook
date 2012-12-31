@@ -176,7 +176,7 @@ ASIN: B00ARN9MHC
 Ebook, <a href="http://my.safaribooksonline.com/9781449343859">Safari Books Online</a>
 
 <h2>O'Reilly Animal</h2>
-<p><strong>Mississippi Kite</strong> (<em>Ictinia mississippiensis</em>)
+<p><strong>Mississippi Kite</strong> (<em>Ictinia mississippiensis</em>)</p>
 <a href="http://en.wikipedia.org/wiki/Mississippi_Kite" target="_blank"><img height="125px" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg" align="left" title="Mississippi Kite" alt="Mississippi Kite" /></a>
 <p><em>"The Mississippi Kite (Ictinia mississippiensis) is a small bird of prey in the family Accipitridae. It is 12 to 15 inches (30–37 cm) beak to tail and has a wingspan averaging 3 feet (91 cm). Weight is from 214 to 388 grams (7.6-13.7 oz).[1] Adults are gray with darker gray on their tail feathers and outer wings and lighter gray on their heads and inner wings. Males and females look alike, but the males are slightly paler on the head and neck. Young kites have banded tails and streaked bodies.[2] Mississippi Kites have narrow, pointed wings and are graceful in flight, often appearing to float in the air. It is not uncommon to see several circling in the same area. Their diet consists mostly of insects which they capture in flight. They eat cicada, grasshoppers, and other crop-damaging insects, making them economically important. They have also been known to eat small vertebrates, including amphibians, reptiles, mammals, and occasionally birds. Their call is a high-pitched squeak, sounding similar to that of a squeaky dog toy."</em> - Wikipedia.org</p>
 <p><a href="http://en.wikipedia.org/wiki/Mississippi_Kite" target="_blank">Wikipedia.org - Mississippi Kite</a><br/>
