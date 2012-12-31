@@ -7,7 +7,7 @@
 
 <h2>Introduction</h2>
 
-<p>The book is called <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=aduci-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155"><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in hard or soft copy.
+<p>The book is called <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=aduci-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155"><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in Paperbook, Ebook, Kindle and via Safari Books Online.
 
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=aduci-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155">buying a copy</a> of the book in digital or printed form.
 
