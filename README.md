@@ -12,7 +12,7 @@
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
 
 <h2>Organization</h2>
-<p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). Below is a breakdown of the chapters.
+<p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). I have tried to involve the most common formats of commerce in the examples while incorporating newer technologies and APIs. Below is a breakdown of the chapters.
 <table>
   <tr>
     <th>Chapter</th><th>Stage</th><th>Topics</th>
