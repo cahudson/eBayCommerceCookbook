@@ -1,4 +1,4 @@
-![eBay Commerce Cookbook](http://ecx.images-amazon.com/images/I/51B%2B2xm5GkL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg)<h1>eBay Commerce Cookbook:</h1>
+<div style="float:right">![eBay Commerce Cookbook](http://ecx.images-amazon.com/images/I/51B%2B2xm5GkL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg)</div><h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
 <p>This is the source code repository for the <a href="http://goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a>. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
