@@ -18,26 +18,26 @@ ql.io, redlaser, ebay, paypal, magento
     <th>Chapter</th><th>Stage</th><th>Topics</th>
   </tr>
   <tr>
-    <td>1</td><td></td><td>provides examples covering the mapping of product availability to location
+    <td>1</td><td>Product Discovery</td><td>provides examples covering the mapping of product availability to location
 using Milo, listing your products on eBay, and incorporating product reviews
 from eBay into your site.</td>
   </tr>
   <tr>
-    <td>2</td><td></td><td>provides examples including customizing the Magento storefront, personalizing
+    <td>2</td><td>Product Presentation</td><td>provides examples including customizing the Magento storefront, personalizing
 a store experience with PayPal Access, and presenting similar items from
 eBay.</td>
   </tr>
   <tr>
-    <td>3</td><td></td><td>provides examples including autogenerating coupons with Magento,
+    <td>3</td><td>Purchase</td><td>provides examples including autogenerating coupons with Magento,
 payment preapproval, and donating on checkout with PayPal Adaptive Payments.</td>
   </tr>
   <tr>
-    <td>4</td><td></td><td>provides examples covering shipping form creation with PayPal Instant
+    <td>4</td><td>Order Fulfillment</td><td>provides examples covering shipping form creation with PayPal Instant
 Payment Notifications, shipping method extensions with Magento, and multiple
 supplier payment with PayPal chained payments.</td>
   </tr>
   <tr>
-    <td>5</td><td></td><td>includes examples on facilitating social recommendations with QR
+    <td>5</td><td>Consumption and Sharing</td><td>includes examples on facilitating social recommendations with QR
 codes, generating taste graphs and recommendations via Hunch, and social sharing
 using mashups through ql.io.</td>
   </tr>
