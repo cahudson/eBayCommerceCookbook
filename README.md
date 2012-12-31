@@ -1,16 +1,15 @@
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
-![test](http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg)
-<p>This is the source code repository for the <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155" target="_blank">eBay Commerce Cookbook</a>. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
+<p>This is the source code repository for the <a href="goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a>. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
 <p>Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. 
 <p>If you have a good idea that results or just in general and want to share feel free to contact me. I always love to hear how people are creating new "mashes" and creating new paradigms in commerce! Either way, have a blast with e, m, s, and x commerce!
 
 <h2>Introduction</h2>
 
-<p>The book is called <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155" target="_blank"><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in Paperbook, Ebook, Kindle and via Safari Books Online.
+<p>The book is called <a href="goo.gl/cPonT" target="_blank"><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in Paperbook, Ebook, Kindle and via Safari Books Online.
 
-<p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155" target="_blank">buying a copy</a> of the book in digital or printed form.
+<p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="goo.gl/cPonT" target="_blank">buying a copy</a> of the book in digital or printed form.
 
 <h2>Organization</h2>
 <p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). I have tried to involve the most common formats of commerce in the examples while incorporating newer technologies and APIs. Below is a breakdown of the chapters.
@@ -156,7 +155,7 @@ using mashups through ql.io.</td>
 <p>We encourage you to fork our work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official book and give you a credit in the next edition. If you just have an issue to report, please use the regular Github issue system.
 
 <h2>Book Details</h2>
-<p>Title: <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155" target="_blank">eBay Commerce Cookbook</a><br/>
+<p>Title: <a href="goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a><br/>
 Paperback: 208 pages<br/>
 Publisher: O'Reilly Media (January 4, 2013)<br/>
 Language: English<br/>
@@ -164,7 +163,7 @@ ISBN-10: 1449320155<br/>
 ISBN-13: 978-1449320157
 
 <p><strong>Kindle Version:</strong><br/>
-Title: <a href="http://www.amazon.com/gp/product/B00ARN9MHC/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00ARN9MHC" target="_blank">eBay Commerce Cookbook</a><br/>
+Title: <a href="http://goo.gl/unbtP" target="_blank">eBay Commerce Cookbook</a><br/>
 File Size: 6125 KB<br/>
 Print Length: 208 pages<br/>
 Simultaneous Device Usage: Unlimited<br/>
