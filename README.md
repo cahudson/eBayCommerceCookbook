@@ -1,6 +1,7 @@
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
+![test](http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg)
 <p>This is the source code repository for the <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=htdesco-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155" target="_blank">eBay Commerce Cookbook</a>. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
 <p>Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. 
 <p>If you have a good idea that results or just in general and want to share feel free to contact me. I always love to hear how people are creating new "mashes" and creating new paradigms in commerce! Either way, have a blast with e, m, s, and x commerce!
@@ -44,7 +45,6 @@ using mashups through ql.io.</td>
 </table>
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
 ![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
-![test](http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg)
 
 <h2>Code Examples - Recipes</h2>
 <p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
