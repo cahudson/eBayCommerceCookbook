@@ -1,18 +1,18 @@
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
-<p>This is the source code repository for the eBay Commerce Cookbook. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. If you have a good idea that results or just in general and want to share feel free to contact me. Have a blast with e, m, s, and x commerce!
+<p>This is the source code repository for the eBay Commerce Cookbook. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. 
+<p>Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. 
+<p>If you have a good idea that results or just in general and want to share feel free to contact me. I always love to hear how people are creating new "mashes" and creating new paradigms in commerce! Either way, have a blast with e, m, s, and x commerce!
 
 <h2>Introduction</h2>
 
 <p>The book is called <em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em> and is published by O’Reilly Media (January 3, 2013). It is available in hard or soft copy.
 
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
-<p>Implementing solutions around commerce incorporated various APIs including several from eBay owned properties. Examples include APIs from :
-ql.io, redlaser, ebay, paypal, magento
 
 <h2>Organization</h2>
-<p>The book consists of five chapters following a simplified commerce life cycle:
+<p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). Below is a breakdown of the chapters.
 <table>
   <tr>
     <th>Chapter</th><th>Stage</th><th>Topics</th>
@@ -44,11 +44,10 @@ using mashups through ql.io.</td>
 </table>
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.
 <p>![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
-3 in each section
 
 <h2>Code Examples - Recipes</h2>
-<p>README at the top of each directory
-
+<p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
+<p>In the tables below you will find a detailed list of the examples by chapter, including the primary API used and a brief description. In this way you can seek out a specific example of a certain API if needed.
 <table width="100%">
   <tr>
     <td colspan="5"><span style="font-weight:bold;">Chapter 1 - Product Discovery and Research</h3></td>
@@ -130,7 +129,7 @@ using mashups through ql.io.</td>
 </table>
 
 <h2>API Usage</h2>
-<p>There are at least a dozen different API sets used through out the examples of the book. Each of the APIs have special licensing and terms of usage. Below is a list of the core APIs employed linked to the documentation of the APIs. Where applicable the limits and key terms have been included in the book, however the various third party API owners may change these at anytime so it is recommeneded that you verify with any provider that you may be incorporating.
+<p>There are at least a dozen different API sets used through out the examples of the book. Each of the APIs have special licensing and terms of usage. It is of course your responsibility to determine any requirements for your project based on the licensing terms. Below is a list of the core APIs employed linked to the documentation of the APIs. Where applicable the limits and key terms have been included in the book, however the various third party API owners may change these at anytime so it is recommeneded that you verify with any provider that you may be incorporating.
 <p>
 <code><a href="http://developer.ebay.com/DevZone/merchandising/docs/Concepts/MerchandisingAPIGuide.html" target="_blank">eBay Merchandising API</a></code>
 <code><a href="http://developer.ebay.com/DevZone/shopping/docs/Concepts/ShoppingAPIGuide.html" target="_blank">eBay Shopping API</a></code>
@@ -146,7 +145,7 @@ using mashups through ql.io.</td>
 <code><a href="http://redlaser.com/developers/" target="_blank">RedLaser</a></code>
 
 <h2>Using Code Examples</h2>
-<p>The examples provided in the book and posted here were designed to help you get your job done. In general you may use the code examples in your programs and documentation. You do not need to contact O'Reilly for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
+<p>The examples provided in the book and posted here were designed to help you get your job done. In general you may use the code examples in your programs and documentation, but of course the code comes without warranty and you should take all means to "productize" the code for your specific project. You do not need to contact O'Reilly for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
 <p>We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “eBay Commerce Cookbook by Charles Hudson (O’Reilly). Copyright 2013 Charles Hudson, 978-1-4493-2015-7.”
 <p>If you feel your use of code examples falls outside fair use or the permission given here, feel free to contact O'Reilly Media at permissions@oreilly.com.
 
