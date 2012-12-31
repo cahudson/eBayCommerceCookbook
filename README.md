@@ -154,7 +154,7 @@ using mashups through ql.io.</td>
 
 <p>We encourage you to fork our work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official book and give you a credit in the next edition. If you just have an issue to report, please use the regular Github issue system.
 
-<h3>Book Details</h3>
+<h2>Book Details</h2>
 <p>Title: <a href="http://www.amazon.com/gp/product/1449320155/ref=as_li_ss_tl?ie=UTF8&tag=aduci-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1449320155">eBay Commerce Cookbook</a><br/>
 Paperback: 208 pages<br/>
 Publisher: O'Reilly Media (January 4, 2013)<br/>
@@ -175,7 +175,7 @@ ASIN: B00ARN9MHC
 <p><strong>Other formats:</strong><br/>
 Ebook, <a href="http://my.safaribooksonline.com/9781449343859">Safari Books Online</a>
 
-<h3>O'Reilly Animal</h3>
+<h2>O'Reilly Animal</h2>
 <strong>Mississippi Kite</strong> (<em>Ictinia mississippiensis</em>)<br/>
 <p><em>"The Mississippi Kite (Ictinia mississippiensis) is a small bird of prey in the family Accipitridae. It is 12 to 15 inches (30–37 cm) beak to tail and has a wingspan averaging 3 feet (91 cm). Weight is from 214 to 388 grams (7.6-13.7 oz).[1] Adults are gray with darker gray on their tail feathers and outer wings and lighter gray on their heads and inner wings. Males and females look alike, but the males are slightly paler on the head and neck. Young kites have banded tails and streaked bodies.[2] Mississippi Kites have narrow, pointed wings and are graceful in flight, often appearing to float in the air. It is not uncommon to see several circling in the same area. Their diet consists mostly of insects which they capture in flight. They eat cicada, grasshoppers, and other crop-damaging insects, making them economically important. They have also been known to eat small vertebrates, including amphibians, reptiles, mammals, and occasionally birds. Their call is a high-pitched squeak, sounding similar to that of a squeaky dog toy."</em> - Wikipedia.org</p>
 <p><a href="http://en.wikipedia.org/wiki/Mississippi_Kite">Wikipedia.org - Mississippi Kite</a><br/>
