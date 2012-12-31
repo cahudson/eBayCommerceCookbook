@@ -1,13 +1,13 @@
 <h1>eBay Commerce Cookbook:</h1>
 <h2>Using eBay APIs: PayPal, Magento and More</h2>
 
-<p>This is the source code repository for a book about improving the commerce lifecycle by leveraging APIs from the various eBay owned properties.
+<p>This is the source code repository for the eBay Commerce Cookbook. The repository contains all code for the 15 recipes / examples in the text so that you can download and run the examples more easily. If you find any errors or issues please let me know and I will do my best to update the examples. Note that the examples were written over the course of the 2012 calendar year so as the various APIs employed are improved or modified the examples may need to be updated to follow any changes. Also note, as the title implies the cookbook is designed to highlight APIs from various eBay owned sites and properties. However the basic premise to each example for improving a commerce lifecycle can be applied using eBay APIs, other APIs, or your own homegrown code. In any of the cases I hope that the examples provide some benefit and spark some methods of differentiating your commerce flow. If you have a good idea that results or just in general and want to share feel free to contact me. Have a blast with e, m, s, and x commerce!
 
 <h2>Introduction</h2>
 
-<p>The book is called <em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em> and is published by O’Reilly Media.
+<p>The book is called <em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em> and is published by O’Reilly Media (January 3, 2013). It is available in hard or soft copy.
 
-<p>You can inspect the source code and make improvements to it, and similarly you can inspect the source code for this book and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the project, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
+<p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
 <p>Implementing solutions around commerce incorporated various APIs including several from eBay owned properties. Examples include APIs from :
 ql.io, redlaser, ebay, paypal, magento
 
