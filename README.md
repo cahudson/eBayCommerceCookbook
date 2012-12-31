@@ -7,8 +7,6 @@
 
 <h2>Introduction</h2>
 
-![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
-
 <p>The book is called <a href="http://goo.gl/cPonT" target="_blank"><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in Paperbook, Ebook, Kindle and via Safari Books Online.
 
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://goo.gl/cPonT" target="_blank">buying a copy</a> of the book in digital or printed form.
@@ -43,6 +41,7 @@ using mashups through ql.io.</td>
   </tr>
 </table>
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
+![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
 
 <h2>Code Examples - Recipes</h2>
 <p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
