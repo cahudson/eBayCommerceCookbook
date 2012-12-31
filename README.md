@@ -54,13 +54,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>1.1</td><td>Tapping into Product Reviews</td><td>eBay Shopping</td><td>Display product reviews from eBay users based on a specific product and the eBay Shopping API.</td>
+    <td>1.1</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/1_1_tapping_into_product_reviews">Tapping into Product Reviews</a></td><td>eBay Shopping</td><td>Display product reviews from eBay users based on a specific product and the eBay Shopping API.</td>
   </tr>
   <tr>
-    <td>1.2</td><td>Mapping Product Availability</td><td>Milo</td><td>Map onto Google Maps availability and stores for a specific product using the Milo API.</td>
+    <td>1.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/1_2_mapping_product_availability">Mapping Product Availability</a></td><td>Milo</td><td>Map onto Google Maps availability and stores for a specific product using the Milo API.</td>
   </tr>
   <tr>
-    <td>1.3</td><td>Presenting Products through eBay</td><td>eBay Trading</td><td>Display products from eBay using the eBay Trading API.</td>
+    <td>1.3</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/1_3_presenting_products_through_ebay">Presenting Products through eBay</a></td><td>eBay Trading</td><td>Display products from eBay using the eBay Trading API.</td>
   </tr>
 </table>
 
