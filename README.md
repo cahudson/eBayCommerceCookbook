@@ -42,8 +42,8 @@ codes, generating taste graphs and recommendations via Hunch, and social sharing
 using mashups through ql.io.</td>
   </tr>
 </table>
-<p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.
-<p>![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
+<p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
+![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
 <br/>
 
 <h2>Code Examples - Recipes</h2>
