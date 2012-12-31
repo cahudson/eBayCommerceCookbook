@@ -44,6 +44,7 @@ using mashups through ql.io.</td>
 </table>
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
 ![Simplified Commerce Lifecycle](https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png)
+![test](http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mississippi_Kite.jpg/220px-Mississippi_Kite.jpg)
 
 <h2>Code Examples - Recipes</h2>
 <p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
