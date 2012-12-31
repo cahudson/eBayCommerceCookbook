@@ -7,7 +7,7 @@
 
 <h2>Introduction</h2>
 
-<p>The book is called <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" ><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (January 3, 2013). It is available in hard or soft copy.
+<p>The book is called <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" ><em>eBay Commerce Cookbook: Using eBay APIs: PayPal, Magento and More</em></a> and is published by O’Reilly Media (Electronic - December 20, 2012, Print - January 4, 2013). It is available in hard or soft copy.
 
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://shop.oreilly.com/product/0636920023968.do" target="_blank" >buying a copy</a> of the book in digital or printed form.
 
@@ -153,3 +153,22 @@ using mashups through ql.io.</td>
 <p>The world of technology is changing at a rocket pace and trying to keep up with more than a dozen different APIs can be challenging. If you find a new update or change please let me know. I will review and include in any updates if appropriate. As well it may get posted here or on the O'Reilly Media book discussion area. In either case not only will I benefit from the new information but everyone else following along. Have fun mashing together the various APIs.
 
 <p>We encourage you to fork our work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official book and give you a credit in the next edition. If you just have an issue to report, please use the regular Github issue system.
+
+<p><em>Book Details</em>
+<p>Paperback: 208 pages<br/>
+Publisher: O'Reilly Media (January 4, 2013)<br/>
+Language: English<br/>
+ISBN-10: 1449320155<br/>
+ISBN-13: 978-1449320157
+
+<p>Kindle:
+File Size: 6125 KB<br/>
+Print Length: 208 pages<br/>
+Simultaneous Device Usage: Unlimited<br/>
+Publisher: O'Reilly Media; 1 edition (December 20, 2012)<br/>
+Sold by: Amazon Digital Services, Inc.<br/>
+Language: English<br/>
+ASIN: B00ARN9MHC
+
+<p>Other formats:
+Ebook, <a href="http://my.safaribooksonline.com/9781449343859">Safari Books Online</a>
