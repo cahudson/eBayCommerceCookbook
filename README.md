@@ -155,14 +155,19 @@ using mashups through ql.io.</td>
 <p>We encourage you to fork our work and make your own improvements under the terms of the license. If you have any changes you want to send back our way, please make a regular pull request via Github. If the authors like your changes, they may integrate them into the official book and give you a credit in the next edition. If you just have an issue to report, please use the regular Github issue system.
 
 <h2>Book Details</h2>
-<p>Title: <a href="http://goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a><br/>
+<table width="100%">
+<tr>
+<td width="50%">
+<strong>Paperback Version:</strong><br/>
+Title: <a href="http://goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a><br/>
 Paperback: 208 pages<br/>
 Publisher: O'Reilly Media (January 4, 2013)<br/>
 Language: English<br/>
 ISBN-10: 1449320155<br/>
 ISBN-13: 978-1449320157
-
-<p><strong>Kindle Version:</strong><br/>
+</td>
+<td width="50%">
+<strong>Kindle Version:</strong><br/>
 Title: <a href="http://goo.gl/unbtP" target="_blank">eBay Commerce Cookbook</a><br/>
 File Size: 6125 KB<br/>
 Print Length: 208 pages<br/>
@@ -171,9 +176,15 @@ Publisher: O'Reilly Media; 1 edition (December 20, 2012)<br/>
 Sold by: Amazon Digital Services, Inc.<br/>
 Language: English<br/>
 ASIN: B00ARN9MHC
-
-<p><strong>Other formats:</strong><br/>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<strong>Other formats:</strong><br/>
 Ebook, <a href="http://my.safaribooksonline.com/9781449343859">Safari Books Online</a>
+</td>
+</tr>
+</table>
 
 <h2>O'Reilly Animal</h2>
 <p><strong>Mississippi Kite</strong> (<em>Ictinia mississippiensis</em>)</p>
