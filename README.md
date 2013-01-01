@@ -13,7 +13,7 @@
 <p>You can inspect the source code and make improvements to it. If you want to contribute, please do so! Fork it, hack on it, and send back your changes! If you want to support the work further and read the full text on each example, you can do so by <a href="http://goo.gl/cPonT" target="_blank">buying a copy</a> of the book in digital or printed form.
 
 <h2>Organization</h2>
-<p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). I have tried to involve the most common formats of commerce in the examples while incorporating newer technologies and APIs. Below is a breakdown of the chapters.
+<p>The book consists of five chapters, each consisting of three recipes / examples, following a simplified commerce life cycle. The simplified commerce life cycle is not meant to be specific ecommerce, mcommerce, or scommerce but could represent any one of these commerce life cycles (and thus the over simplification). I have tried to involve the most common formats of commerce in the examples while incorporating newer technologies and APIs. Below is a breakdown of the chapters.</p>
 <table>
   <tr>
   <th>Chapter</th><th>Stage</th><th>Topics</th>
@@ -157,8 +157,7 @@ using mashups through ql.io.</td>
 <h2>Book Details</h2>
 <table width="100%">
 <tr>
-<td width="50%">
-<strong>Paperback Version:</strong><br/>
+<td width="50%" valign="top"><strong>Paperback Version:</strong><br/>
 Title: <a href="http://goo.gl/cPonT" target="_blank">eBay Commerce Cookbook</a><br/>
 Paperback: 208 pages<br/>
 Publisher: O'Reilly Media (January 4, 2013)<br/>
@@ -166,7 +165,7 @@ Language: English<br/>
 ISBN-10: 1449320155<br/>
 ISBN-13: 978-1449320157
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 <strong>Kindle Version:</strong><br/>
 Title: <a href="http://goo.gl/unbtP" target="_blank">eBay Commerce Cookbook</a><br/>
 File Size: 6125 KB<br/>
