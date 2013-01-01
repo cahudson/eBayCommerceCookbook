@@ -19,31 +19,37 @@
   <th>Chapter</th><th>Stage</th><th>Topics</th>
   </tr>
   <tr>
-  <td>1</td><td>Product Discovery</td><td>provides examples covering the mapping of product availability to location using Milo, listing your products on eBay, and incorporating product reviews from eBay into your site.</td>
+  <td valign="top">1</td><td nowrap valign="top">Product Discovery</td><td>provides examples covering the mapping of product availability to location using Milo, listing your products on eBay, and incorporating product reviews from eBay into your site.</td>
   </tr>
   <tr>
-  <td>2</td><td>Product Presentation</td><td>provides examples including customizing the Magento storefront, personalizing
+  <td valign="top">2</td><td nowrap valign="top">Product Presentation</td><td>provides examples including customizing the Magento storefront, personalizing
 a store experience with PayPal Access, and presenting similar items from
 eBay.</td>
   </tr>
   <tr>
-  <td>3</td><td>Purchase</td><td>provides examples including autogenerating coupons with Magento,
+  <td valign="top">3</td><td nowrap valign="top">Purchase</td><td>provides examples including autogenerating coupons with Magento,
 payment preapproval, and donating on checkout with PayPal Adaptive Payments.</td>
   </tr>
   <tr>
-  <td>4</td><td>Order Fulfillment</td><td>provides examples covering shipping form creation with PayPal Instant
+  <td valign="top">4</td><td nowrap valign="top">Order Fulfillment</td><td>provides examples covering shipping form creation with PayPal Instant
 Payment Notifications, shipping method extensions with Magento, and multiple
 supplier payment with PayPal chained payments.</td>
   </tr>
   <tr>
-  <td>5</td><td>Consumption and Sharing</td><td>includes examples on facilitating social recommendations with QR
+  <td valign="top">5</td><td nowrap valign="top">Consumption and Sharing</td><td>includes examples on facilitating social recommendations with QR
 codes, generating taste graphs and recommendations via Hunch, and social sharing
 using mashups through ql.io.</td>
   </tr>
 </table>
 
 <p>The chapters are based on the stages in a simplified commerce lifecycle as shown in the image below.<br/>
+<table width="100%">
+<tr>
+<td width="100%" align="center">
 <img src="https://raw.github.com/cahudson/eBayCommerceCookbook/master/preface.png" title="Simplified Commerce Lifecycle" alt="Simplified Commerce Lifecycle" height="320px" />
+</td>
+</tr>
+</table>
 
 <h2>Code Examples - Recipes</h2>
 <p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
