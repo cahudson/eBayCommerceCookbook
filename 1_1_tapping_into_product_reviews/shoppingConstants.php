@@ -7,7 +7,6 @@ Constants used for Shopping API calls.
 ********************************************/
 
 // eBay developer API Key for production
-DEFINE("API_KEY","SilkSyst-b88c-4f7f-9984-8533ff0647");
 DEFINE("API_KEY","<YOUR-API-KEY>");
 
 // eBay Shopping API constants

@@ -7,11 +7,10 @@ API availabilty endpoint.
 
 API key required for your domain.
 Calls  caller.php,and APIError.php.
-894ca713e08a2a83107be238b2dd6327
 ********************************************/
 
 //DEFINE("API_KEY","<YOUR API KEY>");
-DEFINE("API_KEY","894ca713e08a2a83107be238b2dd63");
+DEFINE("API_KEY","<YOUR_API_KEY>");
 DEFINE("AVAIL_ENDPOINT","https://api.x.com/milo/v3/availability");
 
 // Set the url to call
