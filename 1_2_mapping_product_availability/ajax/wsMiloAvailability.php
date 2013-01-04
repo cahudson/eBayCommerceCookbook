@@ -9,7 +9,6 @@ API key required for your domain.
 Calls  caller.php,and APIError.php.
 ********************************************/
 
-//DEFINE("API_KEY","<YOUR API KEY>");
 DEFINE("API_KEY","<YOUR_API_KEY>");
 DEFINE("AVAIL_ENDPOINT","https://api.x.com/milo/v3/availability");
 
