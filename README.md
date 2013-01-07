@@ -76,7 +76,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>2.1</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/2_1_customizing_a_magento_storefront">Customizing a Magento Storefront</a></td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
+    <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
   </tr>
   <tr>
     <td>2.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/2_2_personalizing_a_store_experience">Personalizing a Store Experience</a></td><td>PayPal Access</td><td>Providing an alternate sign in with a trusted third party, PayPal, incorporating the PayPal Access / Identity offering.</td>
@@ -92,7 +92,7 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>3.1</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/3_1_autogenerating_coupons">Autogenerating Coupons</a></td><td>Magento</td><td>Wrap the new Magento autogeneration of coupons to create a REST API for creating coupons dynamically.</td>
+    <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td>Wrap the new Magento autogeneration of coupons to create a REST API for creating coupons dynamically.</td>
   </tr>
   <tr>
     <td>3.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/3_2_preapproval_payments">Preapproval Payments</a></td><td>PayPal Adaptive</td><td>Using PayPal Adaptive Payments to provide preapproved payment solutions where customers can preapprove future payments.</td>
