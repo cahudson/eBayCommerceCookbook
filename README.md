@@ -79,10 +79,10 @@ using mashups through ql.io.</td>
     <td>2.1</td><td>Customizing a Magento Storefront</td><td>Magento</td><td>Add in Facebook like / use integration in your Magento storefront with a Facebook App, X.Commerce messaging and Magento community edition.</td>
   </tr>
   <tr>
-    <td>2.2</td><td>Personalizing a Store Experience</td><td>PayPal Access</td><td>Providing an alternate sign in with a trusted third party, PayPal, incorporating the PayPal Access / Identity offering.</td>
+    <td>2.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/2_2_personalizing_a_store_experience">Personalizing a Store Experience</a></td><td>PayPal Access</td><td>Providing an alternate sign in with a trusted third party, PayPal, incorporating the PayPal Access / Identity offering.</td>
   </tr>
   <tr>
-    <td>2.3</td><td>Presenting Similar Items</td><td>eBay Merchandising</td><td>Present similar items to a specific item from eBay using the eBay Merchandising API.</td>
+    <td>2.3</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/2_3_presenting_similar_items">Presenting Similar Items</a></td><td>eBay Merchandising</td><td>Present similar items to a specific item from eBay using the eBay Merchandising API.</td>
   </tr>
 </table>
 
@@ -95,10 +95,10 @@ using mashups through ql.io.</td>
     <td>3.1</td><td>Autogenerating Coupons</td><td>Magento</td><td>Wrap the new Magento autogeneration of coupons to create a REST API for creating coupons dynamically.</td>
   </tr>
   <tr>
-    <td>3.2</td><td>Preapproval Payments</td><td>PayPal Adaptive</td><td>Using PayPal Adaptive Payments to provide preapproved payment solutions where customers can preapprove future payments.</td>
+    <td>3.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/3_2_preapproval_payments">Preapproval Payments</a></td><td>PayPal Adaptive</td><td>Using PayPal Adaptive Payments to provide preapproved payment solutions where customers can preapprove future payments.</td>
   </tr>
   <tr>
-    <td>3.3</td><td>Giving Back at Checkout</td><td>PayPal Adaptive</td><td>Provide a way to give to charities directly in a single sales transaction using the PayPal Adaptive Payments parallel payment model.</td>
+    <td>3.3</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/3_3_giving_back_at_checkout">Giving Back at Checkout</a></td><td>PayPal Adaptive</td><td>Provide a way to give to charities directly in a single sales transaction using the PayPal Adaptive Payments parallel payment model.</td>
   </tr>
 </table>
 
@@ -108,13 +108,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>4.1</td><td>Just-in-Time Shipping Forms</td><td>PayPal IPN</td><td>Create in real time, shipping forms from PayPal Instant Payment Notifications for goods purchased.</td>
+    <td>4.1</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/4_1_just_in_time_shipping_forms">Just-in-Time Shipping Forms</a></td><td>PayPal IPN</td><td>Create in real time, shipping forms from PayPal Instant Payment Notifications for goods purchased.</td>
   </tr>
   <tr>
-    <td>4.2</td><td>Simple Shipping Extension</td><td>Magento</td><td>Add your own shipping extension with personalized shipping methods and cost formulas into Magento.</td>
+    <td>4.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/4_2_simple_shipping_extension">Simple Shipping Extension</a></td><td>Magento</td><td>Add your own shipping extension with personalized shipping methods and cost formulas into Magento.</td>
   </tr>
   <tr>
-    <td>4.3</td><td>Multiple Supplier Fulfillment</td><td>PayPal Adaptive</td><td>Leverage the PayPal Adaptive Payments offering to create a chained payment model for paying multiple vendors in a single transaction.</td>
+    <td>4.3</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/4_3_multiple_supplier_fulfillment">Multiple Supplier Fulfillment</a></td><td>PayPal Adaptive</td><td>Leverage the PayPal Adaptive Payments offering to create a chained payment model for paying multiple vendors in a single transaction.</td>
   </tr>
 </table>
 
@@ -124,13 +124,13 @@ using mashups through ql.io.</td>
   </tr>
   <th rowspan="4" width="5">&nbsp;</th><th width="15">#</th><th width="30%">Title</th><th width="20%">API/Tool</th><th>Description</th>
   <tr>
-    <td>5.1</td><td>Sharing with QR Codes</td><td>RedLaser</td><td>Dynamically create QR codes for products with the Google API and then leverage the RedLaser API in an iPhone app to scan the code and launch a Scan It, Share It page.</td>
+    <td>5.1</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/5_1_sharing_with_qr_codes">Sharing with QR Codes</a></td><td>RedLaser</td><td>Dynamically create QR codes for products with the Google API and then leverage the RedLaser API in an iPhone app to scan the code and launch a Scan It, Share It page.</td>
   </tr>
   <tr>
-    <td>5.2</td><td>Creating a Taste Graph</td><td>Hunch</td><td>Use the Hunch API to create a personalized taste graph based on a purchase of a product and a customer's twitter username.</td>
+    <td>5.2</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/5_2_creating_a_taste_graph">Creating a Taste Graph</a></td><td>Hunch</td><td>Use the Hunch API to create a personalized taste graph based on a purchase of a product and a customer's twitter username.</td>
   </tr>
   <tr>
-    <td>5.3</td><td>Social Recommendations</td><td>ql.io</td><td>Use ql.io to aggregate three separate API calls to create personalized social recommendations from Hunch and eBay.</td>
+    <td>5.3</td><td><a href="https://github.com/cahudson/eBayCommerceCookbook/tree/master/5_3_social_recommendations">Social Recommendations</a></td><td>ql.io</td><td>Use ql.io to aggregate three separate API calls to create personalized social recommendations from Hunch and eBay.</td>
   </tr>
 </table>
 
