@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Shipping Invoice Template</title>
+<style>
+body { font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
+}
+H1{margin: 0px; font-weight: bold; font-size: 18px;color: #332B26;}
+label {display: block; padding: 0 0 5px; width: 110px;}
+#slip {width:744px; margin:0px auto; text-align:left; padding:15px;}
+.sliptableheader {margin:5px 10px 5px 10px; font-weight:bold;}
+.sliptabledata {margin:5px 10px 5px 10px;}
+#shipto {clear:both; padding-top:40px}
+#shipto legend {font-size: 1.1em; padding-left:5px; padding-right:5px; position: relative;}
+#shipto fieldset {border: 1px solid #000; border-radius: 5px; float: left; padding: 10px; width: 360px;}
+#invoice {float:right}
+#invoice legend {font-size: 1.5em; position: relative; text-align:right}
+#invoice fieldset {border: 1px solid #000; border-radius: 5px; width: 250px; padding: 10px}
+#invoice li {clear: both; list-style-type: none; margin: 0; padding: 0;}
+#invoice ol {padding: 0; margin:0}
+#invoice label {display: block; padding: 5px; width: 63px; border: 1px solid #000; float:left; text-align:right}
+#invoice span {display: block; padding: 5px; width: 237px; border: 1px solid #000; text-align:right}
+.borderBottomLeftRight {border-left: 1px solid Black; border-bottom: 1px solid Black;
+	border-right: 1px solid Black; font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+	font-style: normal; line-height: normal; font-weight: normal; color: #000000;
+	text-decoration: none;}
+.borderBottomRight {font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+	font-style: normal; line-height: normal; font-weight: normal; color: #000000;
+	text-decoration: none; border-bottom: 1px solid Black; border-right: 1px solid Black;}
+.borderAll {font-family: Arial, Helvetica, sans-serif; font-size: 9pt;
+	font-style: normal; line-height: normal; font-weight: normal;
+	color: #000000; text-decoration: none; border: 1px solid Black;}
+.borderBottomLeft {border-bottom: 1px solid Black; border-left: 1px solid Black;
+	font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-style: normal;
+	line-height: normal; font-weight: normal; color: #000000;
+	text-decoration: none;}
+</style>
+</head>
+<body>
+  
+  <!-- page break always for printing -->
+  <br style="page-break-before:always;" />
+  
+  <div id="slip">
+  
+  	<div id="headerLogo" style="float:left; padding-right:10px;">
+    	<img src="logo.png">
+    </div>
+    <div id="headerCompany" style="float:left">
+    	<H1>Your Company</H1><br/>
+          yourcompany.com<br/>
+        	support@yourcompany.com<br/>
+        	1-800-852-1973
+    </div>
+    
+    <div id="invoice">
+      <fieldset>
+        <legend>Shipping Invoice</legend>
+          <ol>
+            <li><label>Date</label><span><<DATE>></span></li>
+            <li><label>Status</label><span><<STATUS>></span></li>
+            <li><label>Txn ID</label><span><<TXNID>></span></li>
+          </ol>
+      </fieldset>
+    </div>
+		
+    <!-- address blocks -->
+    <div id="shipto">
+      <fieldset>
+        <legend>Ship To</legend>
+        <p style="margin:5px 0px 5px 10px;"><<ADDRESS>></p>
+      </fieldset>
+    </div>
+    
+    <!-- Order Details -->
+    <div style="clear:both; padding-top:50px;">
+    <table width="100%" border="0px" cellpadding="0" cellspacing="0">
+    	<tr>
+      	<td colspan="4" align="left" class="borderAll"><p class="sliptableheader">Order Details</p></td>
+      </tr>
+      <tr>
+        <td width="12%" align="center" class="borderBottomLeftRight"><p class="sliptableheader">Item #</p></td>
+        <td align="center" class="borderBottomRight"><p class="sliptableheader">Item</p></td>
+        <td align="center" class="borderBottomRight"><p class="sliptableheader">Quantity</p></td>
+        <td width="10%" align="right" class="borderBottomRight" nowrap><p class="sliptableheader">Ext Price</p></td>
+      </tr>
+      <<ITEMS>>
+      <tr>
+        <td align="rigt" valign="top" class="borderBottomLeftRight"></td>
+        <td align="left" valign="top" class="borderBottomRight"><p class="sliptabledata">&nbsp;</p></td>
+        <td align="center" valign="top" class="borderBottomRight"><p class="sliptabledata">&nbsp;</p></td>
+        <td align="center" valign="top" class="borderBottomRight"><p class="sliptabledata">&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center" class="borderBottomLeft">
+        	Thank you for your order. We look forward to serving you in the future.
+        </td>
+        <td align="right" class="borderBottomRight">
+        	<p class="sliptabledata">Subtotal<br/>
+          	Shipping<br/>
+            Handling<br/>
+            Tax</p>
+        </td>
+        <td align="right" valign="top" class="borderBottomRight" nowrap>
+        	<p class="sliptabledata"><<SUBTOTAL>><br/>
+          	<<SHIPPING>><br/>
+            <<HANDLING>><br/>
+            <<TAX>>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" width="90%" align="right" class="borderBottomLeftRight">
+        	<p class="sliptableheader">Total ($ USD)</p>
+        </td>
+        <td width="10%" align="right" valign="top" class="borderBottomRight" nowrap>
+        	<p class="sliptableheader"><<TOTAL>>
+        </td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</body>
+</html>

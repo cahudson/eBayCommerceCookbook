@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <RubberDucky_ShippingModule>
+      <active>true</active>
+      <codePool>local</codePool>
+    </RubberDucky_ShippingModule>
+  </modules>
+</config>

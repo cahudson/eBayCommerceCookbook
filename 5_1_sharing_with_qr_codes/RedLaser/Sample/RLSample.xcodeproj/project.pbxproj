@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RLSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RLSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2899E5220DE3E06400AC0155 /* RLSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RLSampleViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* RLSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RLSampleViewController.m */; };
+		6D83B06F100EA7C60024DE08 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D83B06E100EA7C60024DE08 /* Icon.png */; };
+		EA2B0E6314D6832D00EB5ABC /* OverlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2B0E6214D6832D00EB5ABC /* OverlayController.xib */; };
+		EA5F516E14A2AACE00ABBABB /* poweredByRedLaser.png in Resources */ = {isa = PBXBuildFile; fileRef = EA63FC7C13AEC0A800601B43 /* poweredByRedLaser.png */; };
+		EA5F516F14A2ADC300ABBABB /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA785B2E13B155A900463963 /* beep.wav */; };
+		EA5F517014A2ADC600ABBABB /* powered_by_redlaser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA785B3413B1560A00463963 /* powered_by_redlaser@2x.png */; };
+		EA5F517114A2ADCA00ABBABB /* powered_by_redlaser.png in Resources */ = {isa = PBXBuildFile; fileRef = EA785B3313B1560A00463963 /* powered_by_redlaser.png */; };
+		EA63FC7F13AEC0A800601B43 /* poweredByRedLaser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA63FC7D13AEC0A800601B43 /* poweredByRedLaser@2x.png */; };
+		EA785B3213B155E400463963 /* bolt.png in Resources */ = {isa = PBXBuildFile; fileRef = EA785B3113B155E400463963 /* bolt.png */; };
+		EA807F6D13172BC30089A9AB /* RedLaser_License.xml in Resources */ = {isa = PBXBuildFile; fileRef = EA807F6C13172BC30089A9AB /* RedLaser_License.xml */; };
+		EABF711B14DBD303006413E3 /* MultiScanOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EABF711914DBD303006413E3 /* MultiScanOverlayController.m */; };
+		EABF711C14DBD303006413E3 /* MultiScanOverlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABF711A14DBD303006413E3 /* MultiScanOverlayController.xib */; };
+		EAE33EC814D35EAC0047DB4A /* libRedLaserSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE33EC614D35EAC0047DB4A /* libRedLaserSDK.a */; };
+		EAE33ED114D360250047DB4A /* RLScanOptionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE33ECF14D360250047DB4A /* RLScanOptionsController.m */; };
+		EAE33ED214D360250047DB4A /* RLScanOptionsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE33ED014D360250047DB4A /* RLScanOptionsController.xib */; };
+		EAE55B4213A6FAAC00F2CE26 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55B4113A6FAAC00F2CE26 /* libstdc++.dylib */; };
+		EAE55B4313A6FCD300F2CE26 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D83B052100EA41E0024DE08 /* SystemConfiguration.framework */; };
+		EAE55B4413A6FCD600F2CE26 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8EC19E100E91A2003474F2 /* CFNetwork.framework */; };
+		EAE55B4513A6FCDB00F2CE26 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8EC19A100E919A003474F2 /* AudioToolbox.framework */; };
+		EAE55B4613A6FCDE00F2CE26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		EAE55B4713A6FCF200F2CE26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		EAE55B4813A6FCF200F2CE26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		EAE55B4913A6FCF200F2CE26 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B8F8F1200D3F600762CEC /* AVFoundation.framework */; };
+		EAE55B4A13A6FCF200F2CE26 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B8F931200D40300762CEC /* CoreMedia.framework */; };
+		EAE55B4B13A6FCF200F2CE26 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29B8F971200D40C00762CEC /* CoreVideo.framework */; };
+		EAE55B4C13A6FCF200F2CE26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAEBDA61293502200C7DF79 /* QuartzCore.framework */; };
+		EAE55B4E13A6FD2100F2CE26 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55B4D13A6FD2100F2CE26 /* OpenGLES.framework */; };
+		EAE55B4F13A6FDA000F2CE26 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F5E007121EF04100527C7B /* libiconv.dylib */; };
+		EAE55B5113A6FDD900F2CE26 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE55B5013A6FDD900F2CE26 /* Security.framework */; };
+		FEC37A7812A7E27700775BE1 /* OverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC37A7612A7E27700775BE1 /* OverlayController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RLSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLSampleAppDelegate.h; path = Classes/RLSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RLSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLSampleAppDelegate.m; path = Classes/RLSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* RLSampleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RLSampleViewController.xib; path = ../RLSampleViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* RLSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLSampleViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RLSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLSampleViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RLSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLSample_Prefix.pch; sourceTree = "<group>"; };
+		6D83B052100EA41E0024DE08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6D83B06E100EA7C60024DE08 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6D8EC19A100E919A003474F2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6D8EC19E100E91A2003474F2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* RLSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RLSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D29B8F8F1200D3F600762CEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D29B8F931200D40300762CEC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D29B8F971200D40C00762CEC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D2F5E007121EF04100527C7B /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		EA2B0E6214D6832D00EB5ABC /* OverlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayController.xib; sourceTree = SOURCE_ROOT; };
+		EA63FC7C13AEC0A800601B43 /* poweredByRedLaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poweredByRedLaser.png; path = ../Images/poweredByRedLaser.png; sourceTree = "<group>"; };
+		EA63FC7D13AEC0A800601B43 /* poweredByRedLaser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poweredByRedLaser@2x.png"; path = "../Images/poweredByRedLaser@2x.png"; sourceTree = "<group>"; };
+		EA6E9163130C94CB0001D0A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EA785B2E13B155A900463963 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = beep.wav; path = "Overlay Assets/beep.wav"; sourceTree = "<group>"; };
+		EA785B3113B155E400463963 /* bolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bolt.png; path = "../Overlay Assets/bolt.png"; sourceTree = "<group>"; };
+		EA785B3313B1560A00463963 /* powered_by_redlaser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = powered_by_redlaser.png; path = "../Overlay Assets/powered_by_redlaser.png"; sourceTree = "<group>"; };
+		EA785B3413B1560A00463963 /* powered_by_redlaser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered_by_redlaser@2x.png"; path = "../Overlay Assets/powered_by_redlaser@2x.png"; sourceTree = "<group>"; };
+		EA807F6C13172BC30089A9AB /* RedLaser_License.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RedLaser_License.xml; sourceTree = "<group>"; };
+		EABF711814DBD303006413E3 /* MultiScanOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiScanOverlayController.h; sourceTree = "<group>"; };
+		EABF711914DBD303006413E3 /* MultiScanOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiScanOverlayController.m; sourceTree = "<group>"; };
+		EABF711A14DBD303006413E3 /* MultiScanOverlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiScanOverlayController.xib; sourceTree = "<group>"; };
+		EAE33EC614D35EAC0047DB4A /* libRedLaserSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRedLaserSDK.a; sourceTree = "<group>"; };
+		EAE33EC714D35EAC0047DB4A /* RedLaserSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedLaserSDK.h; sourceTree = "<group>"; };
+		EAE33ECE14D360250047DB4A /* RLScanOptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLScanOptionsController.h; sourceTree = "<group>"; };
+		EAE33ECF14D360250047DB4A /* RLScanOptionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLScanOptionsController.m; sourceTree = "<group>"; };
+		EAE33ED014D360250047DB4A /* RLScanOptionsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RLScanOptionsController.xib; sourceTree = "<group>"; };
+		EAE55B4113A6FAAC00F2CE26 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		EAE55B4D13A6FD2100F2CE26 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EAE55B5013A6FDD900F2CE26 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FEAEBDA61293502200C7DF79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEC37A7612A7E27700775BE1 /* OverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayController.m; sourceTree = "<group>"; };
+		FEC37A7712A7E27700775BE1 /* OverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE55B4513A6FCDB00F2CE26 /* AudioToolbox.framework in Frameworks */,
+				EAE55B4913A6FCF200F2CE26 /* AVFoundation.framework in Frameworks */,
+				EAE55B4413A6FCD600F2CE26 /* CFNetwork.framework in Frameworks */,
+				EAE55B4813A6FCF200F2CE26 /* CoreGraphics.framework in Frameworks */,
+				EAE55B4A13A6FCF200F2CE26 /* CoreMedia.framework in Frameworks */,
+				EAE55B4B13A6FCF200F2CE26 /* CoreVideo.framework in Frameworks */,
+				EAE55B4713A6FCF200F2CE26 /* Foundation.framework in Frameworks */,
+				EAE55B4E13A6FD2100F2CE26 /* OpenGLES.framework in Frameworks */,
+				EAE55B4C13A6FCF200F2CE26 /* QuartzCore.framework in Frameworks */,
+				EAE55B5113A6FDD900F2CE26 /* Security.framework in Frameworks */,
+				EAE55B4313A6FCD300F2CE26 /* SystemConfiguration.framework in Frameworks */,
+				EAE55B4613A6FCDE00F2CE26 /* UIKit.framework in Frameworks */,
+				EAE55B4213A6FAAC00F2CE26 /* libstdc++.dylib in Frameworks */,
+				EAE55B4F13A6FDA000F2CE26 /* libiconv.dylib in Frameworks */,
+				EAE33EC814D35EAC0047DB4A /* libRedLaserSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAE33ED514D360940047DB4A /* Scan Results Table */,
+				EAE33ED414D360830047DB4A /* Overlay */,
+				EABF711714DBD2CB006413E3 /* Multi Scan Overlay */,
+				EAE33ED314D3606C0047DB4A /* Scan Options */,
+			);
+			name = "View Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RLSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EAE33EC514D35EAC0047DB4A /* RedLaser SDK Files */,
+				080E96DDFE201D6D7F000001 /* View Controllers */,
+				29B97315FDCFA39411CA2CEA /* Application Shell */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Application Shell */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RLSample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1D3623240D0F684500981E51 /* RLSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RLSampleAppDelegate.m */,
+			);
+			name = "Application Shell";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA63FC7C13AEC0A800601B43 /* poweredByRedLaser.png */,
+				EA63FC7D13AEC0A800601B43 /* poweredByRedLaser@2x.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				6D83B06E100EA7C60024DE08 /* Icon.png */,
+				EA785B2E13B155A900463963 /* beep.wav */,
+				8D1107310486CEB800E47090 /* RLSample-Info.plist */,
+				EA807F6C13172BC30089A9AB /* RedLaser_License.xml */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6E9163130C94CB0001D0A2 /* Security.framework */,
+				EAE55B4113A6FAAC00F2CE26 /* libstdc++.dylib */,
+				EAE55B5013A6FDD900F2CE26 /* Security.framework */,
+				EAE55B4D13A6FD2100F2CE26 /* OpenGLES.framework */,
+				6D83B052100EA41E0024DE08 /* SystemConfiguration.framework */,
+				6D8EC19E100E91A2003474F2 /* CFNetwork.framework */,
+				6D8EC19A100E919A003474F2 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				D29B8F8F1200D3F600762CEC /* AVFoundation.framework */,
+				D29B8F931200D40300762CEC /* CoreMedia.framework */,
+				D29B8F971200D40C00762CEC /* CoreVideo.framework */,
+				D2F5E007121EF04100527C7B /* libiconv.dylib */,
+				FEAEBDA61293502200C7DF79 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABF711714DBD2CB006413E3 /* Multi Scan Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				EABF711814DBD303006413E3 /* MultiScanOverlayController.h */,
+				EABF711914DBD303006413E3 /* MultiScanOverlayController.m */,
+				EABF711A14DBD303006413E3 /* MultiScanOverlayController.xib */,
+			);
+			name = "Multi Scan Overlay";
+			sourceTree = "<group>";
+		};
+		EAE33EC514D35EAC0047DB4A /* RedLaser SDK Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE33EC614D35EAC0047DB4A /* libRedLaserSDK.a */,
+				EAE33EC714D35EAC0047DB4A /* RedLaserSDK.h */,
+			);
+			name = "RedLaser SDK Files";
+			path = "../RedLaser SDK Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		EAE33ED314D3606C0047DB4A /* Scan Options */ = {
+			isa = PBXGroup;
+			children = (
+				EAE33ECE14D360250047DB4A /* RLScanOptionsController.h */,
+				EAE33ECF14D360250047DB4A /* RLScanOptionsController.m */,
+				EAE33ED014D360250047DB4A /* RLScanOptionsController.xib */,
+			);
+			name = "Scan Options";
+			sourceTree = "<group>";
+		};
+		EAE33ED414D360830047DB4A /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				FEC37A7712A7E27700775BE1 /* OverlayController.h */,
+				FEC37A7612A7E27700775BE1 /* OverlayController.m */,
+				EA2B0E6214D6832D00EB5ABC /* OverlayController.xib */,
+				EA785B3313B1560A00463963 /* powered_by_redlaser.png */,
+				EA785B3413B1560A00463963 /* powered_by_redlaser@2x.png */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
+		EAE33ED514D360940047DB4A /* Scan Results Table */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* RLSampleViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RLSampleViewController.m */,
+				2899E5210DE3E06400AC0155 /* RLSampleViewController.xib */,
+				EA785B3113B155E400463963 /* bolt.png */,
+			);
+			name = "Scan Results Table";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RLSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RLSample" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLSample;
+			productName = RLSample;
+			productReference = 1D6058910D05DD3D006BFB54 /* RLSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RLSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RLSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* RLSampleViewController.xib in Resources */,
+				6D83B06F100EA7C60024DE08 /* Icon.png in Resources */,
+				EA807F6D13172BC30089A9AB /* RedLaser_License.xml in Resources */,
+				EA63FC7F13AEC0A800601B43 /* poweredByRedLaser@2x.png in Resources */,
+				EA785B3213B155E400463963 /* bolt.png in Resources */,
+				EA5F516E14A2AACE00ABBABB /* poweredByRedLaser.png in Resources */,
+				EA5F516F14A2ADC300ABBABB /* beep.wav in Resources */,
+				EA5F517014A2ADC600ABBABB /* powered_by_redlaser@2x.png in Resources */,
+				EA5F517114A2ADCA00ABBABB /* powered_by_redlaser.png in Resources */,
+				EAE33ED214D360250047DB4A /* RLScanOptionsController.xib in Resources */,
+				EA2B0E6314D6832D00EB5ABC /* OverlayController.xib in Resources */,
+				EABF711C14DBD303006413E3 /* MultiScanOverlayController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RLSampleAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RLSampleViewController.m in Sources */,
+				FEC37A7812A7E27700775BE1 /* OverlayController.m in Sources */,
+				EAE33ED114D360250047DB4A /* RLScanOptionsController.m in Sources */,
+				EABF711B14DBD303006413E3 /* MultiScanOverlayController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Debug;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RLSample_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RLSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RedLaser SDK Files\"",
+				);
+				LLVM_LTO = NO;
+				PRODUCT_NAME = RLSample;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"../RedLaser SDK Files/\"";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RLSample_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RLSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RedLaser SDK Files\"",
+				);
+				LLVM_LTO = NO;
+				PRODUCT_NAME = RLSample;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"../RedLaser SDK Files/\"";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Debug;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EAA44B38137DBBBC00861D43 /* BuildMachine */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = BuildMachine;
+		};
+		EAA44B39137DBBBC00861D43 /* BuildMachine */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUILD_STYLE = Release;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RLSample_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RLSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RedLaser SDK Files\"",
+				);
+				LLVM_LTO = NO;
+				OTHER_CODE_SIGN_FLAGS = "--keychain $(USER_LIBRARY_DIR)/Keychains/login.keychain";
+				PRODUCT_NAME = RLSample;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"../RedLaser SDK Files/\"";
+			};
+			name = BuildMachine;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RLSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				EAA44B39137DBBBC00861D43 /* BuildMachine */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RLSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				EAA44B38137DBBBC00861D43 /* BuildMachine */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

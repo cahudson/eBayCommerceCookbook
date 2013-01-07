@@ -1,0 +1,15 @@
+/*******************************************************************************
+	RLSample_Prefix.h
+	
+	Precompiled headers.
+	
+	Chall Fry
+	February 2012
+	Copyright (c) 2012 eBay Inc. All rights reserved.	
+*/
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

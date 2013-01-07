@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <RubberDucky_ShippingModule>
+      <version>1.0.0</version>
+    </RubberDucky_ShippingModule>
+  </modules>
+  <global>
+    <models>
+      <shippingmodule>
+        <class>RubberDucky_ShippingModule_Model</class>
+      </shippingmodule>
+    </models>
+    <resources>
+      <shippingmodule_setup>
+        <setup>
+          <module>RubberDucky_ShippingModule</module>
+        </setup>
+        <connection>
+          <use>core_setup</use>
+        </connection>
+      </shippingmodule_setup>
+    </resources>
+  </global>
+	<default>
+		<carriers>
+			<shippingmodule>
+				<active>1</active>
+				<model>shippingmodule/carrier_shippingmodule</model>
+			</shippingmodule>
+		</carriers>
+	</default>
+</config>

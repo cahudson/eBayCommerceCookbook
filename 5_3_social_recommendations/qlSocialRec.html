@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>eBay Recommendations</title>
+<style>
+	body {color:#000;font:normal 100%/1.5 tahoma, verdana, sans-serif;}
+	.itemImage {max-width:75px;max-height:75px;}
+	.itemrow {position: relative;clear: both;width: 500px;height:80px;border:1px solid #ccc;}
+	.gallery {position:relative;float:left;width:80px;height:80px;border:1px solid #ccc;}
+	.info {position:relative;float:right;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:416px;height:80px;border:1px solid #ccc;}
+	legend {font-size: 1.3em; padding-left:5px;padding-right:5px;position: relative;}
+	fieldset {border: 1px solid #ccc; border-radius: 5px;float:left;paddng:10px;width:520px;}
+	li {clear:both;list-style-type:none;margin:0 0 10px;}
+	label, input, select {font-size:1.0em;}
+	label {width:200px}
+	input {border:2px solid #ccc;border-radius:5px;padding:5px 25px 5px 5px;width:285px;}
+</style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+
+// Function to initialize any page handlers.
+function init() {
+	// set up the button click handler
+	var btnSubmit = document.getElementById('btnSubmit');
+	btnSubmit.addEventListener('click',getSocialRecs,false);
+}
+
+// Function to get the recommendations from ql.io.
+function getSocialRecs() {
+	
+	// Clear the current list of eBay items.
+	document.getElementById("items").innerHTML = "";
+	
+	// Retrieve the form fields.
+	var uid = document.getElementById('uid').value;
+	var tid = document.getElementById('tid').value;
+	
+	// Construct the url for JSON retrieval from ql.io.
+	var jsonUrl = 'http://ql.io/q?s=';
+	var qTblCreate = 'create table hunch on select get from "http://api.hunch.com/api/v1/get-recommendations/?user_id={uid}&topic_id={tid}&limit={limit}" using defaults limit="10" resultset "recommendations";';
+	var qSelect = 'select * from finditems where keywords in (select title from hunch where uid="'+uid+'" and tid="'+tid+'")';
+	
+	var getUrl = jsonUrl + encodeURIComponent(qTblCreate + qSelect) + "&callback=?";
+	
+	// Execute the JQuery call to ql.io.
+	$.getJSON(getUrl,
+  function(data) {
+		// Loop through each item returned and display.
+    $.each(data	, function(i,item){
+			displayItem(item);
+    });
+  });
+}
+
+// Display helper to display each eBay item.
+function displayItem(item) {
+	var outputHTML = "";
+	
+	outputHTML += '<div class="itemrow">';
+	outputHTML += '<div class="gallery"><img src="'+item.galleryURL+'" class="itemImage"/></div>';
+	outputHTML += '<div class="info"><a href="'+item.viewItemURL+'">'+item.title+'</a></div>';
+	outputHTML += '</div>';
+	
+	var divItems = document.getElementById("items");
+	divItems.innerHTML += outputHTML;
+}
+
+// Call the init function on page load.
+window.addEventListener('load',init,false);
+
+</script>
+</head>
+<body>
+	<div id="socRecForm">
+  <fieldset>
+		<legend>Retrieve eBay Recommendations</legend>
+		<ol>
+      <li>
+  	<label for="username">Twitter or Facebook Username (tw_ or fb_)</label>
+  	<input type="text" id="uid" value="tw_chuckhudson" /><br/>
+      </li>
+    </ol>
+    <ol>
+      <li>
+  	<label for="topic">Hunch Category</label>
+    <select id="tid">
+    	<option value="cat_art-design">Art & design</option>
+    	<option value="cat_electronics">Electronics</option>
+    	<option value="cat_health">Health</option>
+    	<option value="cat_home-garden">Home & Garden</option>
+    </select>
+      </li>
+    </ol>
+    <button id="btnSubmit">Submit</button>
+  </fieldset>
+  </div>
+  <div id="items"></div>
+</body>
+</html>
