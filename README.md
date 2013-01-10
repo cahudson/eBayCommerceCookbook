@@ -52,7 +52,7 @@ using mashups through ql.io.</td>
 </table>
 
 <h2>Code Examples - Recipes</h2>
-<p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. Here I have placed a brief README file in the root of each example folder. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
+<p>In the book each example is documented fully with a challenge being solved, potential solution, and steps to setting up the example. The folders here follow the example numbering convention of the book, chapter number followed by example number in the chapter.
 <p>In the tables below you will find a detailed list of the examples by chapter, including the primary API used and a brief description. In this way you can seek out a specific example of a certain API if needed.
 <table width="100%">
   <tr>
